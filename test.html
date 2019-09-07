@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta data-n-head="true" charset="utf-8">
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <h1>Promise的使用</h1>
+    <script type="text/babel">
+        var test = (function(a) {
+    this.a = a;
+    return function(b) {
+        return this.a + b;
+    }
+} (function(a, b) {
+    return a;
+}(1, 2))); 
+console.log(test(4)); //输出什么？？？？
+    </script>
+</body>
+
+</html>

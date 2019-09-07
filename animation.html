@@ -9,9 +9,14 @@
             background-color: red;
             position: relative;
             animation:mymove 5s infinite;
-        
+            -webkit-animation:mymove 5s infinite; 
         }
         @keyframes mymove {
+            from {top:0px;}
+            to {top:200px;}
+        }
+        @-webkit-keyframes mymove /*Safari and Chrome*/
+        {
             from {top:0px;}
             to {top:200px;}
         }
@@ -20,7 +25,7 @@
 </head>
 
 <body>
-    <h1>使用css实现一个持续的动画效果</h1>
+    <h1>使用css实现一个持续的动画效果 <a target="_blank" href="https://www.w3school.com.cn/cssref/pr_animation.asp">more</a></h1>
     <div id="e"></div>
 
 </body>

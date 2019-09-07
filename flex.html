@@ -1,0 +1,134 @@
+<html>
+
+<head>
+  <meta data-n-head="true" charset="utf-8">
+	<style>
+		.content {
+            display: flex;
+        }
+        .left_1 {
+            background-color: red;
+            flex: 1;
+            height: 200px;
+        }
+        .right_1 {
+            background-color: green;
+            height: 200px;
+            width: 200px;
+        }
+        .left_2 {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            float: right;
+        }
+        .right_2 {
+            background-color: green;
+            height: 200px;
+            margin-right: 200px;
+        }
+
+
+        .container_1{
+            background-color: green;
+            position:relative;
+            height: 300px;
+        }
+
+        .center_1{
+            background-color: red;
+            width:100px;
+            height:100px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .container_2{
+            background-color: green;
+            position:relative;
+            height: 300px;
+        }
+
+        .center_2{
+            background-color: red;
+            width:100px;
+            height:100px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            margin:-50px 0 0 -50px;
+        }
+
+        .container_3{
+            background-color: green;
+            position:relative;
+            height: 300px;
+        }
+
+        .center_3{
+            background-color: red;
+            width:100px;
+            height:100px;
+            position:absolute;
+            margin:auto;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+        }
+
+        .container_4{
+            background-color: green;
+            height: 300px;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+        }
+
+        .center_4{
+            background-color: red;
+            width:100px;
+            height:100px;
+        }
+	</style>
+      
+</head>
+
+<body>
+    <h1>对flex的了解</h1>
+    
+    <h3>右边宽度固定，左边自适应</h3>
+    <h5>第一种</h5>
+    <div class="content">
+        <div class="left_1"></div>
+        <div class="right_1"></div>
+    </div>
+    <h5>第二种</h5>
+    <div>
+        <div class="left_2"></div>
+        <div class="right_2"></div>
+    </div>
+
+    <h3>水平垂直居中</h3>
+    <h5>第一种</h5>
+    <div class="container_1">
+        <div class="center_1"></div>
+    </div>
+    <h5>第二种</h5>
+    <div class="container_2">
+        <div class="center_2"></div>
+    </div>
+    <h5>第三种</h5>
+    <div class="container_3">
+        <div class="center_3"></div>
+    </div>
+    <h5>第四种</h5>
+    <div class="container_4">
+        <div class="center_4"></div>
+    </div>
+
+</body>
+
+</html>
