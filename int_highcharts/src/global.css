@@ -1,0 +1,110 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  box-sizing: border-box;
+}
+.flex-1 {
+  flex: 1;
+}
+.inline-flex {
+  display: inline-flex;
+  box-sizing: border-box;
+}
+.inline-block {
+  display: inline-block;
+}
+.jc-start {
+  justify-content: flex-start;
+}
+.ai-start {
+  align-items: flex-start;
+}
+.ai-baseline {
+  align-items: baseline;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.ai-center {
+  align-items: center;
+}
+.jc-end {
+  justify-content: flex-end;
+}
+.ai-end {
+  align-items: flex-end;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-sa {
+  justify-content: space-around;
+}
+.jc-se {
+  justify-content: space-evenly;
+}
+.as-end {
+  align-self: flex-end;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+/********* others *********/
+.t-left {
+  text-align: left;
+}
+.t-right {
+  text-align: right;
+}
+.t-center {
+  text-align: center;
+}
+
+.f18 {
+  font-size: 18rpx;
+}
+.f20 {
+  font-size: 20rpx;
+}
+.f22 {
+  font-size: 22rpx;
+}
+.f24 {
+  font-size: 24rpx;
+}
+.f26 {
+  font-size: 26rpx;
+}
+.f28 {
+  font-size: 28rpx;
+}
+
+.bg_fff {
+  background: #fff;
+}
+
+.bg_side {
+  background: rgba(241, 243, 245, 1);
+}
